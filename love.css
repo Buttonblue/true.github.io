@@ -13,7 +13,7 @@
     margin top: 20px;
     padding-top: 50px;
     height: 100%;
-    background-color: black;
+
    }
 
    .div1_header{
@@ -35,6 +35,10 @@
   padding-bottom: 4%;
   
 }
+@media only screen and (max-width: 768px) {
+    .pacifico-regular {
+        font-size: 50px; /* Tamaño de fuente para dispositivos móviles */
+    }
 nav{
    max-width: 550px;
    margin: auto;
