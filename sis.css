@@ -1,0 +1,57 @@
+body{
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    margin top: 20px;
+    padding-top: 50px;
+    height: 100%;
+
+}
+
+
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.h2 {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff00f7;
+  text-shadow: 2px 5px 15px #00c1ff;
+  font-size: 60px;
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.h22{
+	font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff00f7;
+  text-shadow: 2px 5px 15px #00c1ff;
+  font-size: 120px;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-bottom: 4%;
+}
+
+.hidden {
+    display: none;
+}
+
+.poetic-message {
+    font-size: 24px;
+    color: #ff69b4; /* Color rosa */
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+}
+

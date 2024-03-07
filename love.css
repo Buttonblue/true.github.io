@@ -1,0 +1,90 @@
+
+   *{
+       margin: 0;
+       text-decoration: none;
+   }
+   .clear{
+       clear: both;
+   }
+ body{
+    background-size: cover;
+   }
+
+   .div1_header{
+    text-align: center;
+    color: #92000A;
+    font-size: 65px;
+   }
+
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #FF0000;
+  text-shadow: 15px 15px 5px black;
+  
+}
+nav{
+   max-width: 550px;
+   margin: auto;
+   margin-top: 50px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu2 {
+  display: none;
+  position: absolute;
+  background-color: #990000; /* Color rojo vino */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.menu:hover .menu2 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu2 li {
+  display: block;
+}
+
+.menu2 li a {
+  text-decoration: none;
+  color: #fff; /* Texto en color blanco */
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu2 li a:hover {
+  background-color: #cc0000; /* Cambio de color al pasar el ratón */
+}
+
+.imgmenu img {
+  width: 130px;
+  height: auto;
+}
