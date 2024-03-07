@@ -35,8 +35,9 @@
   padding-bottom: 4%;
   
 }
+
 @media only screen and (max-width: 768px) {
-    .pacifico-regular {
+    .div1_header {
         font-size: 50px; /* Tamaño de fuente para dispositivos móviles */
     }
 nav{
