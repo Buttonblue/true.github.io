@@ -6,13 +6,15 @@
    .clear{
        clear: both;
    }
- body{
+ .body1{
+    background-image: url("recursos/2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin top: 20px;
     padding-top: 50px;
     height: 100%;
+    display: block;
 
    }
 
@@ -28,28 +30,24 @@
   font-style: normal;
   color: #FF0000;
   text-shadow: 15px 15px 5px black;
-  font-size: 120px;
+  font-size: 100px;
   text-align: center;
   margin-right: 5%;
   margin-left: 5%;
+  padding-left: 20 px;
+  padding-right: 20 px;
   padding-bottom: 4%;
+  font-display: flex;
   
 }
 
-@media only screen and (max-width: 768px) {
-    .div1_header {
-        font-size: 50px; /* Tamaño de fuente para dispositivos móviles */
-    }
+
 nav{
    max-width: 550px;
    margin: auto;
    margin-top: 50px;
 }
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+
 
 .container {
   display: flex;
@@ -102,3 +100,14 @@ body, html {
   width: 130px;
   height: auto;
 }
+@media screen and(min-width: 700px){
+  .div1_header{
+     font-size: 80px;
+    }
+ }
+
+@media screen and(max-width: 1000px){
+    .body1{
+      background-image: url("2.jpg");
+    }
+  }
