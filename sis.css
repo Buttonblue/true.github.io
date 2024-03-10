@@ -42,6 +42,18 @@ body{
   margin-left: 5%;
   padding-bottom: 4%;
 }
+.h23{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff00f7;
+  text-shadow: 2px 5px 15px #00c1ff;
+  font-size: 60px;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-bottom: 4%;
+}
 
 .hidden {
     display: none;
